@@ -1,0 +1,54 @@
+# -------------------------
+# Python cache + build files
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.cache
+*.log
+
+# Virtual environment (if any)
+venv/
+env/
+.pte-env/
+.pte_env/
+*.env/
+*.venv/
+
+# -------------------------
+# OS / Editor files
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------
+# Secret files
+# -------------------------
+.env
+*.env
+
+# -------------------------
+# Gradio related
+# -------------------------
+gradio_cached_examples/
+gradio_cache/
+
+# -------------------------
+# Project-specific
+# -------------------------
+
+# If you want ALL audio
+# assets/audio/
+
+# Node/npm leftovers (if ever used)
+node_modules/
+
+# Python packaging (if not used)
+build/
+dist/
+*.egg-info/
